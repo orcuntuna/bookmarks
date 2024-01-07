@@ -15,11 +15,7 @@ export const metadata: Metadata = {
   description: 'Save and share your bookmarks',
 }
 
-export default function RootLayout({
-                                     children,
-                                   }: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({children}: { children: React.ReactNode }) {
   return (
     <html lang="en">
     <body className={cn(
